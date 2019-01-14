@@ -1,0 +1,154 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+aside {
+  /*display: unset !important;*/
+  position: relative;
+  float: right;
+}
+
+textarea {
+  width: 100%;
+  /*overflow: scroll;*/
+  /*resize: auto;*/
+}
+
+form {
+  width: 98%;
+  margin: auto;
+}
+
+.comments textarea {
+
+}
+
+.comment-item {
+  word-wrap: break-word;
+  padding-top: 6px!important;
+  padding-bottom: 6px!important;
+}
+
+.medium-image {
+  margin: 5%;
+  margin-top: 1px;
+  margin-bottom: 0px;
+}
+
+h3, h4 {
+  margin-left: 2%;
+}
+
+#image-description {
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+
+.picture h4 {
+  margin-left: 5%;
+}
+
+.comments  {
+  background-color: #fff;
+  margin: 3px;
+  padding: 5px;
+}
+
+#nav_container {
+  background-color: #4267b2;
+  width: 100%;
+}
+
+.btn-outline-secondary {
+  background-color: aliceblue!important;
+}
+
+.btn-outline-secondary:hover {
+  color: black!important;
+}
+
+.blog-main {
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(66, 103, 178, 0.3);
+}
+
+.btn-timeline {
+  padding: .075rem 1rem!important;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.form-group {
+  margin-bottom: 0rem!important;
+}
+
+.choose-file {
+  margin: 4px 3px;
+  line-height: 1;
+}
+
+#user-name-and-surname {
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+
+label {
+  margin-bottom: 0px!important;
+}
+
+.blog-post-status {
+  word-wrap: break-word;
+}
+
+.blog-post-time {
+  margin-left: 25px;
+}
+
+.auth-username {
+  color: whitesmoke;
+}
+
+.auth-username:hover {
+  color: linen;
+}
+
+.header-anchor:hover {
+  color: linen !important;
+  text-decoration: none;
+}
+
+.add-friend {
+  display: inline-flex;
+}
+
+.addfriend-btn {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.addfriend-h {
+  margin-top: 5px;
+  margin-bottom: 0px!important;
+}
+
+.like-icon {
+  
+}
+
+.client {
+  color: indigo;
+}
